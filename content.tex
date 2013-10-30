@@ -1,12 +1,8 @@
 \documentclass{article}
 
-\usepackage{xunicode}
-\usepackage{fontspec}
+\usepackage{xunicode,fontspec}
 \usepackage[no-sscript,no-logos]{xltxtra}
-\usepackage{fancyhdr}
-\usepackage{setspace}
-\usepackage{tabu}
-\usepackage{nameref}
+\usepackage{fancyhdr,setspace,tabu,refstyle,varioref}
 \usepackage[small,compact]{titlesec}
 \usepackage[autostyle]{csquotes}
 \usepackage[strict,notes,backend=biber]{biblatex-chicago}
@@ -21,13 +17,13 @@
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
-\fancyhead[L]{}
+\fancyhead[L]{Framing Political Interaction as Conversation}
 \fancyhead[R]{\nouppercase{\leftmark}}
 \fancyfoot[C]{–\ \thepage\ –}
 
 \setstretch{2}
 \begin{document}
-\title{``I'm not Touching You'':\\ Framing Political Interaction as Conversation}
+\title{Framing Political Interaction as Conversation}
 \author{Sam Stuewe\\ Professor David Blaney 
    \\ Professor Andrew Latham}
 \maketitle
@@ -41,7 +37,7 @@
 For years, political theorists have attempted to use metaphors to simply explain political interaction. 
 Perhaps the simplest metaphor used for this purpose hails from the Realist tradition: all actors involved in an interaction are solid billiards balls whose internal setups are of no concern to the analysts and whose interactions with other actors are reduced to hitting one another which may be helpful or hindering.\footcite{mearsheimer01} 
 However, like many of the metaphors that have followed, this framework fails to grasp the complexity of the situation at hand. 
-Some would argue that the major benefit from these models is that, despite the loss of some detail, they make a complex situation easy to understand. 
+It can be argued that the major benefit from these models is that, despite the loss of some detail, they make a complex situation easy to understand. 
 Unfortunately, as the saying goes, ``the devil is in the details,'' and dismissing complexity in favor of simplicity only leads to the creation of a model without application. 
 More ``leftist'' political theories, such as social constructivism, have offered less overly-simplified metaphors which allow for much more complex understandings, but often lead to such high-level abstraction that it becomes difficult for lay persons (or even modern politicians) to apply them in a given interaction.
 
@@ -60,7 +56,7 @@ Using the elaboration of its components, I will seek to create a functional typo
 And finally, using this framework and typology, I will analyze Occupy on several cases of scale to establish its scalability.
 
 \section{Origins and Evolution}
-\label{sec:origins}
+\seclabel{origins}
 [Introduction to Lit Review]
 \subsection{Location}
 The notion of an arena in which political interactions take place is not a new concept and the exact meaning of the term has not always well-defined. 
@@ -71,9 +67,26 @@ He posits a typology of political arenas for which the defining characteristic w
 Mintzberg's typology is founded upon the notion that all organizations are oriented around conflict and that because of the trends of conflict in politics, there are only four basic types of arena. 
 The most useful component of this model is its simplicity. 
 As with other seemingly predictive models, given various input factors (of which there are not many possibilities), probable outcomes may be predicted with confidence. 
-But the notion of a political arena as being only valuable with reference to conflict explicitly dismisses cooperative political interaction;\footcite[152]{mintzberg85} and, even more distressing, his model assumes a vaccuum-sealed environment. 
+But the notion of a political arena as being only valuable with reference to conflict implicitly dismisses cooperative political interaction;\footcite[152]{mintzberg85} and, even more distressing, his model assumes a vaccuum-sealed environment. 
 That is, there is little to no context for which the arena was shaped before the conflict becomes apparent. 
 No political interaction is without context and without giving some analysis focused on the context which gave rise to, or influenced, the interactions themselves, a great deal of useful information (which will assuredly affect outcomes) is lost.
+
+Giving an extra dimension to the contextuality of interactions, Anthony Giddens's theory of ``structuration''\footcite{giddens86} offers a model for understanding the existence of institutionalization.
+In particular, Giddens traces the unintended consequences of a given action to becoming conditions which influence future actions.
+However, because of their having arisen unintentionally, they are overlooked or unacknowledged in the calculus of future actions.\footcite[5]{giddens86}
+The repetition of this cycle leads to the embedding of these unacknowledged action-influencing conditions, or institutionalization.
+This notion of institutionalization brought about through overlooked conditions is at the heart of the concept of normalization---an integral part of understanding how institutions become internalized.
+Yet, though Giddens speaks, at great length, about the separations between intended and unintended consequences, he glosses over the possibility for \emph{intended} consequences to play into the same framework of overlooked conditions which internalize norms.
+That is, it is entirely conceivable that a political actor could influence future actions through intentional decisions which would still go overlooked by other actors. 
+More important than these notions of internalization, however, is Giddens's argument surrounding the ``duality of structure.''\footcite[16]{giddens86}
+Through this mechanism, Giddens argues that not only do institutions shape future actions, but each action reproduces the institution.\footcite[19]{giddens86}
+Thus, the institutions which constrain action are created and recreated by action itself.
+
+Drawing on Mintzberg and Giddens, the notion of a political arena---of a location in which political discussion can take place---has several basic characteristics.
+It is organized and created by actors who shape its character.
+The organization of the location influences (sometimes obviously, and other times subversively) future actions taken.
+Finally, the organization and the action are mutually generative and reinforcing---each produces and reproduces the other.
+With this basic concept of a location in mind, it is necessary to step forward to see what theorists say about the participants in interaction.
 
 \subsection{Participants}
 While the location and context of any political interaction holds great importance, those who participate in the interaction itself are, perhaps, the primary subjects of interest. 
@@ -81,7 +94,7 @@ In the intro to his work, \emph{A Semisovereign People}, E. E. Schattschneider f
 In particular, his model focuses on an argument taking place in a hotel lobby.\footcite[1--5]{schattschneider75} 
 In this argument, as in Schattschneider's framework as a whole, the focus should be placed on the ``audience,'' not the ``speakers.'' 
 He pays special attention to the size of the audience as this is what, he claims will play the decisive role in determining the outcome of the conflict: 
-\blockquote{\setstretch{1}The logical consequence of the foregoing analysis of conflict is that the balance of forces in any conflict is not a fixed equation until \emph{everyone} is involved. If one tenth of 1 percent of the public is involved in conflict, the latent force of the audience is 999 times as great as the active force, and the outcome of the conflict depends overwhelmingly on what the 99.9 percent do. Characteristically, the potentially involved are more numerous than those actually involved. This analysis has a bearing on the relations between the ``interested'' and the ``uninterested'' segments of the community and sheds light on interest theories of politics. It is hazardous to assume that the spectators are uninterested because a free society maximizes the contagion of conflict; it invites intervention and gives a high priority to the participation of the public in conflict.\footcite[5]{schattschneider75}}\setstretch{2}
+\blockquote{\setstretch{1}The logical consequence of the foregoing analysis of conflict is that the balance of forces in any conflict is not a fixed equation until \emph{everyone} is involved. If one tenth of \oldstylenums{1} percent of the public is involved in conflict, the latent force of the audience is \oldstylenums{999} times as great as the active force, and the outcome of the conflict depends overwhelmingly on what the \oldstylenums{99.9} percent do. Characteristically, the potentially involved are more numerous than those actually involved. This analysis has a bearing on the relations between the ``interested'' and the ``uninterested'' segments of the community and sheds light on interest theories of politics. It is hazardous to assume that the spectators are uninterested because a free society maximizes the contagion of conflict; it invites intervention and gives a high priority to the participation of the public in conflict.\footcite[5]{schattschneider75}}\setstretch{2}
 Here, Schattschneider offers a great deal of helpful concepts. 
 For example, he offers us the concept of interest as it relates to participants (though he makes this distinction as only being important with reference to audience members and not vocal participants). 
 However, perhaps most important, he makes obvious that the dynamics of an interaction are ever-changing. 
@@ -89,22 +102,25 @@ Unfortunately, Schattschneider's model focuses almost entirely on the participan
 Furthermore, not all political interaction can be accurately characterized as conflict. 
 Therefore, his model is simply not applicable to a wide variety of cases, and despite the utility of many of his concepts, his model overall is too focused on only one aspect of any given case.
 
-Less influenced by game theory, Susan Bickford still assumes a level of conflict evident in political interaction but focuses on a different part of participants and their relation to the conversation as a whole.
+Combining some of Schattschneider's insights with the basic concept of a location, the concept of participant dynamics begins to take shape.
+Though Schattschneider places a (perhaps undue) large emphasis on the non-vocal participants, it is clear that the relationships between participants in the conversation matters a great deal, and that the construction of the location might have serious implications as to the status of those relationships.
+
+Though she is less influenced by game theory, Susan Bickford still assumes a level of conflict evident in political interaction but focuses on a different part of participants and their relation to the conversation as a whole.
 In particular, her text \emph{The Dissonance of Democracy}\footcite{bickford96} focuses on listening and how much it affects conversations disproportionate to how much it has been addressed in academic literature. 
 Referencing Plato's \emph{Republic}, Bickford argues that communicative interaction is founded on the understanding that those making arguments will have an audience willing to listen.\footcite[3]{bickford96}
 This realization is extremely useful as it offers a basic cast of participants and their roles in a conversation.
 Fundamentally speaking, arguments rely on having multiple participants who play various roles (moving between orator and interpreter).
 Beyond this realization, it highlights an extremely powerful action for audience members to take: not listening.\footcite[3]{bickford96}
-Bickford makes note that pre-cursory agreements determine rules of interaction such that various means of decision-making become normalized.\footcite[3--5]{bickford96}\footnote{Some theorists have referred to these agreements as ``constitutions.''}
+Bickford makes note that pre-cursory agreements determine rules of interaction such that various means of decision-making become normalized.\footcite[3--5. Simply put, these pre-cursory agreements can be understood as ``constitutions.'']{bickford96}
 These agreements are often made to allow for preferring majority rule or another consensus-based mechanism in the place of the use of force.
 Bickford's argument is particularly useful because it does not empower ``listening'' to the disenfranchisement of ''speech,'' but rather equalizes the playing field for both claiming that politics itself is ``about the dynamic between the two.''\footcite[4]{bickford96}
 Furthermore, it does not assume conflict is the only character of interaction.
 She asserts a complex understanding of relationships (through connections and divisions) which influence actions through affects on the dynamics of any given conversation.\footcite[9--11]{bickford96}
 
-[Bickford's last chapter and gap in her literature for critique]
+[Recap including Bickford's insights and transition]
 
 \subsection{Content}
-With his focus set on the final aspect of political interaction, Jeffrey Banks's \emph{Signlaing Games in Political Science} concentrates on information transition, or ``signaling.''\footcite{banks91} 
+With his focus set on the final aspect of political interaction, Jeffrey Banks's \emph{Signaling Games in Political Science} concentrates on information transition, or ``signaling.''\footcite{banks91} 
 Banks's analysis focuses on signaling games (particularly incomplete information signal games\footnote{He argues that models which allow for complete information have very little predictive and intellectual merit due to serious limitations on the applicability of the model in real situations}) and how political interaction can be cast in the light of these games. 
 Despite his focus on game theory (which emphasizes predictiveness), Banks still offers a prototypical model of politics as conversation. 
 In his case analysis, he cast the model's ``players'' as speakers and the signals sent which may influence other players' actions as ``speeches.''\footcite[37]{banks91} 
@@ -118,14 +134,16 @@ However, despite all the limitations Banks places on his model, it remains surpr
 In his case analysis, he applies his model to literal cases (candidates making speeches to audiences) but makes it generalizable through a metaphor by which analysts may understand much higher-level games through the same terms. 
 This is what makes Banks's model so appealing; despite all its limitations, it is scalable.
 
+[Conclusion and summary of the lit review and transition]
+
 \section{Conversation as a Metaphor}
 In their seminal work on metaphor, George Lakoff and Mark Johnson argue that metaphors are deeply pervasive and that humans fundamentally rely upon metaphor.\footcite[3--6]{lakoffjohnson80}
 Throughout their text, \emph{Metaphors We Live By}, they seek to show the use of metaphor as being applicable to a great many aspects of human life.
 With their framework of metaphor in mind, I will attempt to construct a unified framework for political interaction grounded primarily in a structural metaphor of conversation.\footcite[14]{lakoffjohnson80} 
 The inherent advantage of this type of constructed framework is that it draws on a construct that would be simple for any academic or lay reader to access and analyze.
-Thus, this text will attempt to create a near totalizing framework for political interaction through this metaphor; however, even if it should not, any intellectual extension of the framework should be discoverable through little more than logical exploration.
+Thus, this text will attempt to create a comprehensive framework for political interaction through this metaphor; however, even if it should not, any intellectual extension of the framework should be discoverable through little more than logical exploration.
 
-This metaphor of conversation has three general components which were discussed throughout ``\nameref{sec:origins}.'' 
+This metaphor of conversation has three general components which were discussed throughout section 2.
 These are the location, the participants and the content.
 Without discussing all three components, a vital piece of information---which may be critical to useful analysis or generalization---is lost.
 Each author discussed before has given a great deal of valuable concepts which, when developed further and are synthesized, offer a far more realistic and revealing picture of political interaction.
@@ -133,7 +151,7 @@ What follows is the initial construct of a metaphor of conversation for politica
 
 \subsection{Imagine a Room}
 In this room, there are an indeterminate number of walls, doors and windows.
-Both the doors\footnote{Door-knobs as a valid metaphor for a pseudo social contract by which an entrant agrees to the set of norms governing the room} and windows vary between open and closed states; and on occasion, some are removed entirely or are newly installed.
+Both the doors and windows vary between open and closed states; and on occasion, some are removed entirely or are newly installed.
 The room itself was built a long time ago (though there was never an exact moment when construction was started).\footnote{Though it is outside the scope of this work to establish, the concept of a well-defined line between a ``state of nature'' and modern society has been soundly questioned. To reflect this, assume that this room has been evolving through construction and maintenance without a clearly defined beginning.}
 As a result of previous alterations, this room's acoustics and floor are uneven which amplify some voices while effectively muting others. 
 Finally, despite this room's having changed (significantly) over time, alterations made to the room take a great deal of time to complete, and often happen as individual projects to change very small characteristics.
@@ -142,10 +160,10 @@ This room, however, is far from empty. There are several people inside at any gi
 Some of these people are focused on discussions taking place within the room itself, while others are more concerned with those going on outside.
 There are also, of course, some people outside the room looking in through a window or open door, and many people will either move from the inside out or vice versa quite often.
 Regardless of where people are in the room, they serve two roles (often simultaneously): that of the speaker and that of the listener.\footcite[4]{bickford96}
-Like any other room, movement inside is fairly unencumbered, but each person is given an assigned seat, which rarely changes, where they are expected to sit for most discussions.
+Like any other room, movement inside is fairly unencumbered, but each person is given an assigned seat, which rarely changes, where they are expected to sit for most discussions.\footnote{Though they are \emph{expected} to sit in their assigned position for the most part, they are not (typically) physically required to do so.}
 
 Understanding that the characteristics of the room and the people inside it have a great deal of influence on the topic, imagine a discussion taking place in this room.
-Its organization is governed by the physical limitations of the room and by agreements made between participants.\footnote{Which are created through discussions held before-hand.}
+Its organization is governed by the physical limitations of the room and by agreements made between participants.\footnote{Which are created through discussions held before-hand (e.g., the seating arrangement)}
 Though the topic is often determined by those inside the room taking part in the discussion, it may concern those outside as well.
 The topic of discussion may morph and change as various statements are made.
 Various people in the room will understand the topic in a different light, which will color their speaking about and listening to discussion concerning it.
@@ -156,7 +174,7 @@ Discussions often (if not, always) flow from one into another even if they do no
 
 \subsection{Grounding the Metaphor}
 The locational aspect of this metaphorical room serves to represent the systems of rules, norms and physical limitations which govern modern political interaction.
-These norms and systems were ``created''\footnote{A problematic term because it validates the view that a well-defined moment of consensus which brought humankind out of a state of nature and into society---a fiction.} millenia ago and have been evolving ever since.
+These norms and systems were ``created''\footnote{A problematic term because it validates the view that a well-defined moment of consensus which brought humankind out of a state of nature and into society---a fiction.} long ago and have been evolving ever since.
 The walls, windows and doors highlight the separations---which are often times artificial in nature---between those involved in the conversation and those who are not.
 The openness of the doors and windows are meant to make clear the traversability of these artificial boundaries and allow for a basic mechanism for joining and leaving a given discussion.
 But the interior of the walls describe a separate characteristic.
@@ -167,7 +185,25 @@ In deeper detail still, the varying height of the floor provides, perhaps, a mor
 The final metaphorical detail I offer about the room itself is meant to establish a sense of longevity.
 Where the metaphor explicitly allows for participation to change drastically, and discussion contents are nothing but ephemeral, the construction itself (though it can be modified) resists drastic change.
 
-%\section{A Typology of Conversations}
+In contrast to the locational aspect, the participational aspect of the metaphor represents the focus, relationships and possible actions which describe the participants in a given discussion.
+The focus of the participants speaks to their attentiveness to particular conversations or traits of those conversations---for example, are participants actively engaged in a conversation, or are they more interested in one taking place further away (or even one taking place outside the room itself)?
+Despite how attentive a participant may be, however, they will still be part of a conversation by means of both their active presence and passive lack of absense.\footcite{bickford96,giddens86}
+The entering and exiting of the room is an extension of the dichotomy of presence and absense; namely, it offers a simple mechanism by which participants can remove their influence (whatever influence they may have) from the conversation,\footnote{Perhaps ironically, or maybe just fascinatingly, this willful departure from asserting direct influence is itself a statement made in the conversation which may carry great power.} or by which they may attempt to assert influence by entering the room having been outside.
+The motion within the room and the seating arrangement are meant to evoke an understanding that participants inside the room \emph{do} have some autonomy.
+As various conversations may be taking place at any given moment in the room, participants may wander so that they may hear better.
+Of course, this freedom of movement is largely cosmetic; to change one's position in the room permanently is much more difficult.
+
+Finally, the content-oriented aspect represents the organization, topic, tone and duration of the conversation itself.
+All pieces of this aspect are determined almost entirely by the location and participation.
+However, the influence from the location and participation is comprehensive, so the participants outside the room may have a great deal of influence on the topic.\footnote{Perhaps, on occassion, more so than those inside? See: note 31}
+Unlike the relative stability of the room itself and even more obvious than the fluidity of change in the participants, the nature of the conversation can change very swiftly.
+Each singular statement made by a participant may be enough to shift the topic, and, to complicate the matter, the different identities of the participants will influence how they interpret the topic.
+As intertwined as the rest, the tone of the conversation as a whole derives from the tone with which each participant makes a statement.
+Thus, should participants speak with a tone of hostility, the conversation may begin to take on that character as a whole.
+Finally, the notion that conversations are never well-defined is meant to reinforce the understanding that the process of a conversation does not end: each statement leads to further development which leads to more statements.
+
+\section{A Typology of Conversations}
+[placeholder]
 %The content of the conversation changes often and is heavily (if not, entirely) influenced by the location and the participants.
 %It can be thought of as having several basic characteristics: topic and tone.
 %Each conversation must intuitively have a topic.
