@@ -1,8 +1,8 @@
 \documentclass{article}
 
-\usepackage{xunicode,fontspec}
+\usepackage{fontspec}
 \usepackage[no-sscript,no-logos]{xltxtra}
-\usepackage{fancyhdr,setspace,tabu,refstyle,varioref}
+\usepackage{fancyhdr,setspace,tabu,refstyle,varioref,pgfplots}
 \usepackage[small,compact]{titlesec}
 \usepackage[autostyle]{csquotes}
 \usepackage[strict,notes,backend=biber]{biblatex-chicago}
@@ -55,7 +55,7 @@ Then, having established its background, I will elaborate on the framework itsel
 Using the elaboration of its components, I will seek to create a functional typology of political interactions. 
 And finally, using this framework and typology, I will analyze Occupy on several cases of scale to establish its scalability.
 
-\section{Origins and Evolution}
+\section{Intellectual Origins}
 \seclabel{origins}
 [Introduction to Lit Review]
 \subsection{Location}
@@ -148,24 +148,25 @@ In the next section, I will offer a metaphor---founded in the terms which have b
 \section{Conversation as a Metaphor}
 In their seminal work on metaphor, George Lakoff and Mark Johnson argue that metaphors are deeply pervasive and that humans fundamentally rely upon metaphor.\footcite[3--6]{lakoffjohnson80}
 Throughout their text, \emph{Metaphors We Live By}, they seek to show the use of metaphor as being applicable to a great many aspects of human life.
-With their framework of metaphor in mind, I will attempt to construct a unified framework for political interaction grounded primarily in a structural metaphor of conversation.\footcite[14]{lakoffjohnson80} 
-The inherent advantage of this type of constructed framework is that it draws on a construct that would be simple for any academic or lay reader to access and analyze.
-Thus, this text will attempt to create a comprehensive framework for political interaction through this metaphor; however, even if it should not, any intellectual extension of the framework should be discoverable through little more than logical exploration.
+With their framework of metaphor in mind, I will attempt to construct a unified framework for political interaction grounded primarily in a ``structural'' metaphor of conversation.\footcite[14]{lakoffjohnson80} 
+The inherent advantage of this type framework is that it draws on a construct that would be simple for any academic or lay reader to access and analyze.
+Thus, I will attempt to create a comprehensive framework for political interaction using this metaphor; however, even if it should not, any intellectual extension of the framework should be discoverable through little more than logical exploration.
 
 This metaphor of conversation has three general components which were discussed throughout section 2.
-These are the location, the participants and the content.
+These are the \emph{location}, the \emph{participants} and the \emph{content}.
 Without discussing all three components, a vital piece of information---which may be critical to useful analysis or generalization---is lost.
-Each author discussed before has given a great deal of valuable concepts which, when developed further and are synthesized, offer a far more realistic and revealing picture of political interaction.
+Each author discussed before has offered a number of valuable concepts which, when developed further and are synthesized, offer a far more realistic and revealing picture of political interaction.
 What follows is the initial construct of a metaphor of conversation for political interaction.
 
 \subsection{Imagine a Room}
 In this room, there are an indeterminate number of walls, doors and windows.
+Some of the walls have been added in such a way that they form small enclaves within the larger room itself.
 Both the doors and windows vary between open and closed states; and on occasion, some are removed entirely or are newly installed.
 The room itself was built a long time ago (though there was never an exact moment when construction was started).\footnote{Though it is outside the scope of this work to establish, the concept of a well-defined line between a ``state of nature'' and modern society has been soundly questioned. To reflect this, assume that this room has been evolving through construction and maintenance without a clearly defined beginning.}
-As a result of previous alterations, this room's acoustics and floor are uneven which amplify some voices while effectively muting others. 
+Due to the construction and previous alterations, this room's acoustics and floor are uneven which amplify some voices while effectively muting others. 
 Finally, despite this room's having changed (significantly) over time, alterations made to the room take a great deal of time to complete, and often happen as individual projects to change very small characteristics.
 
-This room, however, is far from empty. There are several people inside at any given moment whose focus varies greatly.
+This room, however, is far from empty. There are many people inside at any given moment whose focus varies greatly.
 Some of these people are focused on discussions taking place within the room itself, while others are more concerned with those going on outside.
 There are also, of course, some people outside the room looking in through a window or open door, and many people will either move from the inside out or vice versa quite often.
 Regardless of where people are in the room, they serve two roles (often simultaneously): that of the speaker and that of the listener.\footcite[4]{bickford96}
@@ -186,7 +187,8 @@ Discussions often (if not, always) flow from one into another even if they do no
 
 The locational aspect of this metaphorical room serves to represent the systems of rules, norms and physical limitations which govern modern political interaction.
 These norms and systems were ``created''\footnote{A problematic term because it validates the view that a well-defined moment of consensus which brought humankind out of a state of nature and into society---a fiction.} long ago and have been evolving ever since.
-The walls, windows and doors highlight the separations---which are often times artificial in nature---between those involved in the conversation and those who are not.
+The walls, windows and doors highlight the separations---which are often artificial in nature---between those involved in the conversation and those who are not.
+Furthermore, the notion of enclaves establishes the possibility of separations between participants who \emph{are} all involved in the conversation.
 The openness of the doors and windows are meant to make clear the traversability of these artificial boundaries and allow for a basic mechanism for joining and leaving a given discussion.
 But the interior of the walls describe a separate characteristic.
 The acoustics of a room (i.e., how sound reverberates through a space) are heavliy determined by the arrangement, construction and decoration of the walls.
@@ -214,56 +216,127 @@ Thus, should participants speak with a tone of hostility, the conversation may b
 Finally, the notion that conversations are never well-defined is meant to reinforce the understanding that the process of a conversation does not end: each statement leads to further development which leads to more statements.
 
 \section{Statements in Conversation}
-Given this more complex (but still general) understanding of how conversations are created and unfold, I would like to turn the analysis of conversation in the direction of what type of statements can be, and are, made during a discussion.\footnote{I need to make clear at some point earlier that a discussion will be defined (problematically, but usefully) as an instance of a conversation characterized by a particular topic (or set of topics)}
+Given this more complex (but still general) understanding of how conversations are created and how they unfold, I would like to turn the analysis of conversation in the direction of what type of statements can be, and are, made during a discussion.\footnote{I need to make clear at some point earlier that a discussion will be defined (problematically, but usefully) as an instance of a conversation characterized by a particular topic (or set of topics)}
 Before I discuss the categorization and subsequent typology associated with statements, it is important to note that the term ``statement'' may be metaphorical or literal.\footnote{[Might remove this in favor of more clearly explaining the application of this framework in the intro/elsewhere]}
-Each statement might be something \emph{literally} said by a person in the more literal sense that Bickford and Mintzberg discuss, or could be as abstract as the speeches which concern Banks.\footnote{[Add citations]}
+Each statement might be something \emph{literally said} by a person in the sense that Bickford and Mintzberg discuss, or could be as abstract as the speeches which concern Banks.\footnote{[Add citations]}
 However, the language and rationale for understanding a conversation in either the metaphorical or literal sense remains the same.
+
 Thus, I turn towards a typology of statements.
-Each statement in a conversation can be categorized on two different criteria: the outcome and the scope.\footnote{[work in the separation between what was intended and what actually happened]}
+Each statement in a discussion may be categorized with reference to affecting the scope of one of the three aspects of a conversation.
+A statement can either make more wide, cosmetically change or make more narrow the location, the participation and the content of a given conversation.\footnote{Might also be worth mentioning interruptions; statements made which cut off others before they finish}
+The following table illustrates fairly broad categories through which widening, cosmetic change and narrowing may take place.
+The horizontal axis describes which aspect is being affected by the statement whereas the vertical axis describes how that aspect is being affected.
+For example, ``construction'' refers to the category of statements which \emph{widen} the \emph{location}; and, conversely, ``specification'' refers to the category of statements which \emph{narrow} the \emph{content}.
+In the sections which follow the table, I will elaborate on how each type of statement can take shape and the effects it can have on the dynamics of a conversation.
 
-\subsection{Outcomes}
-Unlike their counterpart category which seeks to end discussion, inquisitive statements are inherently hoping for a response.
-As a result, the forms they take are less subtle in nature.
-The two most basic categories into which inquisitive statements fall are assertions and questions.
-However, the separation between the two is more a matter of phrasing than it is one of inherent difference.
-Both manifestations are examples of statements made in a process meant to help the participants seek further understanding.
-The phrasing of the two determines the inherently defined agency given to the listener.
-A question includes a built-in agency for the listener to become a speaker and respond to what was asked.
-In contrast, an assertion makes no such offer to the listener, and should listeners wish to then take on the role of speakers and respond, they must find their own motivation and opportunity to do so.
-
-Despite being less common than inquisitive statements, rhetorical statements have vast implications.\footnote{[citation needed] or rewording to be less assertive}
-A rhetorical statement will be one made in the hopes that no response will follow where an inquisitive statement will be one made in the hopes that a response \emph{needs} to follow.
-Given the intended outcome of these two possibilities, the role each plays is fairly clear.
-Rhetorical statements are meant to end a discussion where inquisitive statements are meant to stimulate conversation.\footnote{Note: inquisitive statements are not necessarily intent on stimulating the specific discussion. They may very well be aimed at moving onto a different subject; but they hope to continue conversation.}
-A rhetorical statement can take two basic shapes.
-The first, an innocuous comment\footnote{Miniature statement?} which may add little to the conversation or a concluding statement to a conversation which attempts to settle an issue such that no response is necessary.
-The second, and far more contentious, radical silence.
-If a conversation, by definition, requires that there are multiple participants sending messages back and forth, then the possibility for a participant to choose not to part-take in the conversation can cause serious troubles for interaction.
-Bickford offers a prototype of this notion of ``not listening,''\footcite[pg]{bickford96} but radical silence can extend far beyond choosing to not listen.
-It can, at the most radical edge, culminate in the choice to exit the conversation entirely.\footnote{Hirschman and Fraser, exiting and exterior rooms}
-Fascinatingly, doing so is one of the most likely actions to arouse responses, but such an action can, by definition, bring a conversation to its end almost instantly.
-
-[transition]
-
-\subsection{Scope}
-Each type of statement has a varying degree of effect.
-Those statements which focus on creating change in the conversation will have a greater scope because they are more likely to concern more participants.
-Following logically, statements made with the intention of eventually bringing about change at more fundamental levels of the conversation will have a wider scope than those which do not.
-For example, a statement made with the intention of changing the topic of discussion itself will not have a wide scope unless the discussion being switched to, or from, has implications for the participants.
-On the other hand, a statement made with the intention of fundamentally changing the organization or structure of the location will have a vast scope because it directly concerns every participant involved in the conversation.
-
-[Deeper elaboration on which statements have a wider or narrower scope]
-
-[Transition]
-
-\subsection{A Typology of Statements}
-\begin{center}
-\begin{tabu} {c|c|c|}
-   \multicolumn{1}{c}{} & \multicolumn{1}{c}{Inquisitive} & \multicolumn{1}{c}{Rhetorical}\\\cline{2-3}
-   Narrow Scope & Interrogative & Innocuous\\\cline{2-3}
-   Wide Scope & Assertive & Objecting\\\cline{2-3}
+\begin{tabu} [c] {c|c|c|c|}
+   \multicolumn{1}{c}{} & \multicolumn{1}{c}{Location} & \multicolumn{1}{c}{Participants} & \multicolumn{1}{c}{Content} \\\cline{2-4}
+   Widening & Construction & Inclusion & Generalization \\\cline{2-4}
+   Cosmetic & Maintenance & Rearranging & Rephrasing \\\cline{2-4}
+   Narrowing & Demolition & Exclusion & Specification \\\cline{2-4}
 \end{tabu}
-\end{center}
+
+\subsection{Location}
+As mentioned briefly in the metaphor elaborated in the section above, modifications made to a location take a fair amount of time compared to those relating to the other aspects.
+Typically, these statements are made because participants believe each addition allows for more equity.\footnote{That is, not what is truly equal, but rather, what they consider to be \emph{fair}.}
+These modifications can take the shape of construction, maintenance and demolition.
+Construction, logically, involves the addition of a new installation to the room.
+New additions can be anything from a new wall, window, doorway or even a small enclave or adjoining room.
+Because of the amount of work required (along with the implications of the new separations, or entrances), these tend to be some of the most difficult statements to support.
+Perhaps one of the best examples of construction in the sphere of international relations can be found by looking to the United Nations Security Counsil.\footnote{Concept is strong; need a citation to back it up.}
+The \textsc{unsc} is given the power to establish subisdiary bodies as needed under the \textsc{un} Charter.
+Over the years, a great many new subsidiaries have been created, primarily in the form of committees.
+Each of these committees can be viewed as enclaves inside the room of the \textsc{unsc}; each may have several (seemingly) independent discussions taking place within at any given moment, but all of them are influenced and shaped by the larger context which gave rise to them.
+In turn, each committee influences policy and rhetoric present in the \textsc{unsc} overall.
+
+Unlike construction, maintenance focuses not on making drastic changes through creating new additions, but rather on reforming or revising those installations which have already been created.
+Maintenance often takes the form of modifying the various heights of the floor or changing the acoustics of the room's walls through soundboards.
+It is not uncommon for these statements of maintenance to reverse or reinforce previous pieces of maintenance.
+These statements also have a strong chance of influencing indoor dynamics, but their effects do not appreciably increase or decrease the size of the room itself.
+Again, one of the most obvious manifestations of maintenance lies in the history of the \textsc{un}---the formation of the United nations Human Rights Council.
+The \textsc{unhrc} was established to replace a heavily criticized organization, the United Nations Human Rights Commission.
+The goals of both were largely the same, but the structure of varied greatly.\footnote{Preliminary source: http://news.bbc.co.uk/2/hi/europe/4810538.stm}
+This represented not a drastic addition of a new installation, but rather focused on reforming an older one.\footnote{This probably doesn't quite fit since it's an example of a replacement rather than a reformation. This may be a better example for when/if a discussion about replacements comes up in relation to demolition.}
+
+Finally, demolition is the process of removing established installations.
+Anything that can be added in construction can be removed in demolition (including the foundational structures of the room itself).
+Though these statements can be controversial because they remove installations which have become part of the established order, they often involve much simpler proposals since they focus only on removal of an installation which may take much less work than the planning for an addition.\footnote{Only examples, to my knowledge, of \textsc{un} organizations that have been totally removed were the \textsc{chr} (mentioned above) and the \textsc{iro} which is a near identical example to that of the chr. Odds are one of those two examples will end up in this paragraph, and I will need to find a different example to use in the paragraph above.}
+
+\subsection{Participants}
+Much like statements which affect the makeup of the location of a conversation, those that affect the makeup of the participants can be categorized by their affect on its extent.
+It is important to note that these statements are made much more often and are completed much more quickly than those which affect the location overall because the room, in general, facilitates movement.
+These statements will either take the shape of inclusion, rearrangements or exclusion.
+Statements of inclusion most typically come to bear in the form of invitations from, or demands made by, the indoor participants to entities currently outside.
+However, they may involve invitations or acceptance of participants into smaller enclaves\footnote{Reference Enclaves} as well.
+For example, one could look to the inclusion of nations as member states to the United Nations.\footnote{Or perhaps I should move the example of Occupy's ``\oldstylenums{99} percent'' here?}
+Every new nation recognized as a member state is invited inside, so to speak.
+With the inclusion of a new member, many organizations may be refactored to adjust to the new member, or the new member will adjust to the organizations in-place already.
+However, the primary change is in the makeup and dynamic of the membership; each new member brings a new perspective and a new set of interests to the conversation.
+
+Rearrangements, the more cosmetic change, most often affect the seating arrangement or speaking order of a given conversation.
+These can drastically affect position in the room and can therefore make fundamental changes to the dynamics between participants in a given conversation.
+However, because they do not affect who is welcome in a conversation and who is excluded, they will be far less controversial than inclusionary or exlusionary statements.\footnote{Must come up with a good example of this---\textsc{unsc} rotating membership?}
+
+Finally, exclusionary statements are those which intentionally remove a participant from membership in the room itself or in a smaller enclave.
+These statements may be made in order to exclude an individual, or they may be made by an individual to exclude themselves.\footnote{Hirschman and Fraser with exiting}
+By again looking to the \textsc{unsc}, there is a simple example to be found.
+Recently,\footnote{Preliminary source: http://www.nytimes.com/2013/10/19/world/middleeast/saudi-arabia-rejects-security-council-seat.html} Saudi Arabia was invited to take one of the rotating seats of the \textsc{unsc}, and declined.
+In doing so, Saudi Arabia chose to exclude itself from the position offered.
+This action may have been entirely rhetorical---i.e., an attempt to signal a lack of need for the \textsc{unsc}---but Saudi Arabia's Foreign Ministry released a statement noting that it declined because the \textsc{unsc} has proven to be ineffective and that it would gladly join the conversation were the body to prove itself useful.\footnote{preliminary ibid}
+
+\subsection{Content}
+Even more than participational statements, content-oriented statements are much more quickly made than those which concern the location.
+Each single discussion can involve a great deal of these statements, and each statement has wide ranging immediate effects on the future of a discussion's content.
+These statements most often take the forms of generalization, rephrasing and specification.
+Generalizations are made to widen the content of the conversation by allowing for a greater variety of allowed statements.
+That is, often through manipulation of terms or the topic itself, generalizations offer an avenue for more areas of discussion to be a part of the conversation.
+Arguably, the best modern example of topic expansion arose with the Occupy movement.
+In order to help bring about public discussion of issues that concerned many people of very different backgrounds, the issues important to each person were framed as being important to everyone.
+That is, the topic of discussion was open-ended; anyone who wished to air a grievance was welcome to do so.\footnote{[citation needed]}
+
+However, many times a statement is not well-received not because its scope is too wide or too narrow, but rather just because of how it was phrased.
+As a result, cosmetic change arises in the form of simple rephrasing.
+Rephrasing a statement can be as simple as using different terminology, but the motions of doing so may make the statement itself much more acceptable by other participants.\footnote{Think of a good example}
+
+Finally, content-oriented statements may be made to narrow the topic through specifications.
+Specifications, like generalizations, may be made through the terms of the conversation or more powerfully through the topic itself.
+Making these statements can make future statements more efficient by focusing them on more specific goals; however, doing so will necessitate that other goals be left unattended.\footnote{Occupy's narrowing focus on wealth inequality as a good example?}
+
+%\subsection{Outcomes}
+%Unlike their counterpart category which seeks to end discussion, inquisitive statements are inherently hoping for a response.
+%As a result, the forms they take are less subtle in nature.
+%The two most basic categories into which inquisitive statements fall are assertions and questions.
+%However, the separation between the two is more a matter of phrasing than it is one of inherent difference.
+%Both manifestations are examples of statements made in a process meant to help the participants seek further understanding.
+%The phrasing of the two determines the inherently defined agency given to the listener.
+%A question includes a built-in agency for the listener to become a speaker and respond to what was asked.
+%In contrast, an assertion makes no such offer to the listener, and should listeners wish to then take on the role of speakers and respond, they must find their own motivation and opportunity to do so.
+
+%Despite being less common than inquisitive statements, rhetorical statements have vast implications.\footnote{[citation needed] or rewording to be less assertive}
+%A rhetorical statement will be one made in the hopes that no response will follow where an inquisitive statement will be one made in the hopes that a response \emph{needs} to follow.
+%Given the intended outcome of these two possibilities, the role each plays is fairly clear.
+%Rhetorical statements are meant to end a discussion where inquisitive statements are meant to stimulate conversation.\footnote{Note: inquisitive statements are not necessarily intent on stimulating the specific discussion. They may very well be aimed at moving onto a different subject; but they hope to continue conversation.}
+%A rhetorical statement can take two basic shapes.
+%The first, an innocuous comment\footnote{Miniature statement?} which may add little to the conversation or a concluding statement to a conversation which attempts to settle an issue such that no response is necessary.
+%The second, and far more contentious, radical silence.
+%If a conversation, by definition, requires that there are multiple participants sending messages back and forth, then the possibility for a participant to choose not to part-take in the conversation can cause serious troubles for interaction.
+%Bickford offers a prototype of this notion of ``not listening,''\footcite[pg]{bickford96} but radical silence can extend far beyond choosing to not listen.
+%It can, at the most radical edge, culminate in the choice to exit the conversation entirely.\footcite{hirschman70}\footnote{Fraser, exiting and exterior rooms}
+%Fascinatingly, doing so is one of the most likely actions to arouse responses, but such an action can, by definition, bring a conversation to its end almost instantly.
+
+%[transition]
+
+%\subsection{Scope}
+%Each type of statement has a varying degree of effect.
+%Those statements which focus on creating change in the conversation will have a greater scope because they are more likely to concern more participants.
+%Following logically, statements made with the intention of eventually bringing about change at more fundamental levels of the conversation will have a wider scope than those which do not.
+%For example, a statement made with the intention of changing the topic of discussion itself will not have a wide scope unless the discussion being switched to, or from, has implications for the participants.
+%On the other hand, a statement made with the intention of fundamentally changing the organization or structure of the location will have a vast scope because it directly concerns every participant involved in the conversation.
+
+%[Deeper elaboration on which statements have a wider or narrower scope]
+
+%[Transition]
+
 %The content of the conversation changes often and is heavily (if not, entirely) influenced by the location and the participants.
 %It can be thought of as having several basic characteristics: topic and tone.
 %Each conversation must intuitively have a topic.
@@ -272,7 +345,90 @@ On the other hand, a statement made with the intention of fundamentally changing
 %Perhaps this is because the precursory agreements which participants agree to in order to join a conversation in the first place strongly discourage leaving.
 %An Innocuous Rhetorical comment will have little effect on the conversation as a whole and will serve more as punctuation or a footnote for previous statements made.
 
-%\section{Case Analysis}
+Over the course of the next section, I will seek to analyze the Occupy movement on varying levels of effect in terms of the typology explicated above.
+In particular, I will focus on several watershed moments of the movement, their lasting effects, and some examples of messages which never got the recognition that the more pervasive messages did.
+Occupy must be recognized as a movement with an effect on, at least, three different levels of interaction: metropolitan, national and international.
+In this section, I will offer a short history of Occupy itself and then delve into the intricacies of each level as a separate case.
+On each level, different strategies and, as a result, different statements were used; these differences color the effectiveness each level's messages and, when viewed in terms of the framework and typology laid out above, make clear each case's lasting effects.
+
+%[MOAR TRANSITION]
+
+\section{A brief history of Occupy}
+In light of the Arab Spring protests and various occupations in Greece and Spain, Adbusters\footnote{See https://www.adbusters.org/blogs/adbusters} began calling\footnote{https://www.adbusters.org/blogs/adbusters-blog/occupywallstreet.html} for similar movements to happen in the United States.
+That is, Adbusters advocated for protests that highlight inequalities and other issues of civil interest that government bodies appear to have ignored.
+On \oldstylenums{17 September, 2011}, the occupation of Zuccotti Park began, and the Occupy movement in the United States was born under the banner of a Twitter hashtag (\#OccupyWallStreet).
+
+Over the course of the next several months, similar occupations began in cities across the United States such as Washington, \textsc{d.c.}; Kansas City, \textsc{mo}; and Saint Paul, \textsc{mn}.\footnote{I know I cannot/should not cite Wikipedia; nor do I intend to. But, for now, see this list: https://en.wikipedia.org/wiki/List\_of\_Occupy\_movement\_protest\_locations\_in\_the\_United\_States}
+Through the use of consensus-based General Assemblies, the various occupations each had their own focuses of issues they felt central to improving life for all people in the United States.\footnote{Good time to talk about the \oldstylenums{99} percent rhetoric}
+Each General Assembly served as a semi-centralized forum for making decisions on behalf of the collective occupation.
+Not long after the occupations began, several cities opted to evict the protesters from their locations (most notably the Wall Street eviction on 15 November).
+However, the protest movement did not cease with the evictions.
+Rather, the protests have shifted course significantly---now rarely, if ever, occupying physical space in protest, but instead working towards social change through other mechanisms.
+
+[Transition to Cases]
+
+\section{The Local Case}
+Occupy in the United States is most well-known in the case of Occupy Wall Street (\textsc{ows}).
+This is not only because it was the first in the series, but also because of how the movement spread through the public eye.
+Information spread about Occupy often using one hashtag, \#OccupyWallStreet, even though it did not correctly highlight the separation.
+Even news media focused most heavily on the protests in Zuccotti Park.
+This being the first, and largest of the protests, it is arguably the best location to use as an example of a local-level case.
+
+\subsection{Initial Occupation}
+%Perhaps one of the gravest mistakes of the public has been to label Occupy as a movement without plan or direction, but instead one of unbridled spontaneity.\footnote{Find any few news sources for this; there should be many}
+%On the contrary, despite the appearance of spontaneous 
+%With as much a focus on deliberative democratic involvement as the Occupy General Assemblies held, it is no accident that Occupy took income inequality as a primary issue.
+The initial occupation of Wall Street serves as one of the most easily catagorizable statements made throughout the whole Occupy movement.
+Upon the achievement of consensus that the current structure of society and government fails to address issues of civil interest, the decision is made to help construct a new space for discussion that might fill the void.
+This piece of construction was focused at addressing, among other things, the inequality perceived in the realm of discourse.
+Thus, the movement never sought to elect candidates to office---it was never a goal of Occupy to change politics from inside the current system.
+Rather, \textsc{ows} created a space \emph{outside} normal politics meant to facilitate systemic change \emph{inside}.
+
+Yet, Occupy is not solely a manifestation of construction.
+After the occupation itself began, the rhetorical strategies of the movement were crafted not only to lead to action that would address concerns, but address some issues inherently.
+The most widely-known use of this strategy arrived in the form of the ``\oldstylenums{99} percent'' slogan.\footnote{This ¶ may be better in the National Section}
+Occupy saw a great many people (the overwhelming majority, in fact) as having almost no voice in their government with no capacity to change such a reality.
+Beyond construction, the occupation's system of self-governance through General Assemblies served as a statement of inclusion---one meant to help incorporate the disenchanted and disenfranchised members of society into the discussion so that they might have increased agency.
+
+\subsection{Eviction and Response}
+In short order, ``wealth inequality'' had been identified as one of the primary causes for many of the problems identified.
+However, Occupy remained intent on being a forum for the spread of information and awareness, not an actor advocating for policy change.
+Perhaps due to frustration with the movement's lack of a clear policy goal, or maybe simply because of the inconvenience, Michael Bloomberg, Mayor of New York City, decided that the occupation must end.
+Regardless of the motivations, the eviction was clearly a statement in itself.
+At first glance, the eviction appeared as a statement of destruction---as seeking to remove the space that had been created for the new discourse.
+Yet, it cannot be so simply classified.
+One of the cited motivations for the evictions was a need to clean Zuccotti Park of hazardous materials and to keep the premises safe.\footnote{It is worth noting that Zuccotti Park is private property. This status has serious implications for the legality of the occupation, but oddly, it never became a decisive issue.}
+After the cleaning had completed, the protesters were allowed to return to the park, though new regulations had been added stipulating that protesters may not lie down nor sleep in the Park.
+Given that the space was reopened for protesters to use, it may be best to characterize the evictions not as statements of destruction, but rather as statements of maintenance---made to keep the new space up to standard.
+
+On the other hand, the new restrictions implemented effectively destroyed any option for an extended physical occupation.
+In that sense, the evictions were not maintenance so much as they were destruction mixed with exclusion.
+By implementing restrictions that severely decreased the time that people can spend in protest, the number of people able to participate was also significantly lessened.\footnote{Citation Needed}
+
+%\subsection{Placeholder}
+
+\section{National Effects}
+LexisNexis search revelation about prevalence of ``income inequality'' or ``wealth inequality'' in news mentions.
+Also see http://fair.org/extra-online-articles/bored-with-occupy8212and-inequality/, as referenced by Milkman\footcite[38]{milkman13}
+
+\begin{tikzpicture}
+   \begin{axis}[xlabel=Year, ylabel=Mentions, title={Mentions of ``wealth inequality'' across 2006--2013}]
+      \addplot table{
+         X    Y
+         2006 2
+         2007 3
+         2008 10
+         2009 10
+         2010 20
+         2011 80
+         2012 60
+         2013 75
+      };
+   \end{axis}
+\end{tikzpicture}
+
+\section{Playing on an International Stage}
+
 \newpage
 \printbibliography
 \end{document}
