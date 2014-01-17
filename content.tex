@@ -2,7 +2,7 @@
 
 \usepackage{fontspec}
 \usepackage[no-sscript,no-logos]{xltxtra}
-\usepackage{fancyhdr,setspace,tabu,refstyle,varioref,pgfplots}
+\usepackage{fancyhdr,setspace,tabu,refstyle,varioref,pgfplots,graphicx}
 \usepackage[small,compact]{titlesec}
 \usepackage[autostyle]{csquotes}
 \usepackage[strict,notes,backend=biber]{biblatex-chicago}
@@ -427,8 +427,6 @@ By implementing restrictions that severely decreased the time that people can sp
 Though a large majority of Occupiers were found to be wealthy individuals,\footcite[10]{milkman13} a considerable number of them were homeless.
 With no ability to physically occupy the Park for extended time, many could not stay in the area at all.\footnote{\textsc{Ows} was not the only site to have such issues; OccupyMN (later OccupyMpls, or \textsc{ompls}) faced many of the same issues.}
 
-[Somewhere, I have to mention the UC Davis incident; here seems like a good place though I do not know how to phrase it or work it in.]
-
 \subsection{Working Forward}
 Most fascinatingly, though Occupy did not end with the evictions (and there \emph{are} still physical occupations and protests that continue to the time of writing this document), news organizations almost entirely ceased covering the movement.\footnote{Perhaps this was because it became more difficult to track when it became less centralized (but this seems unlikely as the internal media organization and resources are just as easy to reach today as they were in the midst of the occupations)}
 Each site had different means of working forward for social change after the evictions.
@@ -436,27 +434,92 @@ Each site had different means of working forward for social change after the evi
 They organized a relief effort in the wake of the hurricane that coordinated over \oldstylenums{50,000 volunteers and \$600,000} in donations.\footcite[35--36]{milkman13}
 Of course, not all sites had natural disasters to respond to, but there is no shortage of social issues in the United States which were addressed.\footnote{In Minnesota, \textsc{ompls} eventually evolved into OccupyHomes, a movement to help leverage collective bargaining against unfair foreclosures. [Offer an example of what another site has done in the wake of the evictions]}
 
-[Transition from Wall Street to National]
+Localized in each city, Occupy focused on issues specific to the community.
+However, on a larger scale, Occupy's mission was less concrete (perhaps leading to the eventual loss of steam the movement felt).
+Yet, it seems the story on the national level is so vastly different than the localized accounts mainly due to the lack of overarching unity.
 
 \section{The United States}
-LexisNexis search revelation about prevalence of ``income inequality'' or ``wealth inequality'' in news mentions.
-Also see http://fair.org/extra-online-articles/bored-with-occupy8212and-inequality/, as referenced by Milkman\footcite[38]{milkman13}
+Nationally speaking, Occupy held an incredbily high amount of support from the general public.\footcite{cooper11}
+Such high national support quickly curtailed after the movement became characterized as one populated by wealthy college students complaining about student loan debt.\footnote{This was said a ton of times by various news networks (most often by Fox, if memory serves), it should not be difficult to add several citations here.}
+Regardless, several incidents across the localities had massive effects on the political climate of the Nation, overall.
+This section will focus on several symbols that became common-place references across the nation through Occupy along with some of the national effects of the Occupy movement as a whole.
+
+\subsection{Government Resistance}
+The following image became one of the most widely recognizable pictures during the primary Occupations.
+
+\includegraphics[width=4.25in]{graphics/pike.jpg}
+
+In it, Lt. John Pike of the University of California Davis police force, is using pepper spray on a number of peacefully assembled and protesting students.
+This incident sparked outrage across the country, and quickly, use of this picture of Pike became a symbol of government's oppressive response to the protests.
+It, along with some of the political commentary about it, became so widely-known that it rose to the level of an ``internet meme.''\footnote{See: http://knowyourmeme.com/memes/casually-pepper-spray-everything-cop}
+
+All negative government response in the following several months would be characterized by this photo, particularly police actions (unsurprisingly).
+Yet, Lt. Pike's actions were not heavily punished, and the scandal has fallen out of the public consciousness.\footnote{In fact, recently, Lt. Pike was awarded around \oldstylenums{\$38,000} in a settlement due to psychological trauma resulting from the incident---more than each of the students was awarded in the legal battle immediately following the incident (see: http://www.huffingtonpost.com/2013/10/23/pepper-spray-cop-settlement\_n\_4152147.html).}
+As a result of the failure of memory, Lt. Pike's interaction with Occupy had very little lasting affect.
+Those which had more staying power were much simpler messages.
+
+\subsection{The ``\oldstylenums{99} Percent''}
+Arguably one of the clearest pieces of evidence that Occupy had a lasting impact on the political climate in the United States is the prevalence of particular phrases and concepts that, before Occupy, had been non-existent.
+Some phrases had fairly minimal change, where others noticed massive increases.
+The following charts show the highest percent relative prevalence\footnote{This is a relative measure of prevalence comparing the number of mentions of any given sample to the maximum number of mentions.} of the term's usage per year from \oldstylenums{2004--2013}.\footnote{Though this is a valid representation of the data, it is somewhat misleading. In reality, the relative prevalence across \oldstylenums{2004--2010} was significantly lower. A better representation of this data would be to use the average (rather than the highest) per year.}
+The first phrase I investigated was ``wealth inequality.''
+
+%Also see http://fair.org/extra-online-articles/bored-with-occupy8212and-inequality/, as referenced by Milkman\footcite[38]{milkman13}
 
 \begin{tikzpicture}
-   \begin{axis}[xlabel=Year, ylabel=Mentions, title={Mentions of ``wealth inequality'' across 2006--2013}]
+   \begin{axis}[xlabel=Year, 
+                ylabel=Percent, 
+                title={Relative Prevalence of ``wealth inequality'' across \oldstylenums{2004--2013}},
+                xticklabel style={/pgf/number format/1000 sep=}]
       \addplot table{
          X    Y
-         2006 2
-         2007 3
-         2008 10
-         2009 10
-         2010 20
-         2011 80
-         2012 60
-         2013 75
+         2004 0
+         2005 15
+         2006 11
+         2007 11
+         2008 11
+         2009 8
+         2010 13
+         2011 28
+         2012 15
+         2013 100
       };
    \end{axis}
 \end{tikzpicture}
+
+This chart shows fairly constant prevalence across \oldstylenums{2005 through 2010 around 15 percent}.
+Then, in \oldstylenums{2011}, the year Occupy burst into public view, relative prevalence nearly doubled to a peak of \oldstylenums{28} percent.
+Following a short decrease during \oldstylenums{2012, 2013} has seen the highest prevalence in history.
+In simple terms, where ``wealth inequality'' had been almost entirely unmentioned until \oldstylenums{2005}, and did not see wide mention until \oldstylenums{2011} after Occupy's inception, and following the occupations, it was mentioned more last year than in any year previous.
+
+Striking as this pattern is, ``wealth inequality'' had, at least, been discussed before Occupy got off the ground.
+A better example of the shift would be tracking a phrase that had almost no exposure before the occupations.
+The most obvious example of one such phrase is the now common-place term for the public---the ``\oldstylenums{99} percent.''
+
+\begin{tikzpicture}
+   \begin{axis}[xlabel=Year, 
+                ylabel=Percent, 
+                title={Relative Prevalence of ``\oldstylenums{99} percent'' across \oldstylenums{2006--2013}},
+                xticklabel style={/pgf/number format/1000 sep=}]
+      \addplot table{
+         X    Y
+         2004 0
+         2005 0
+         2006 0
+         2007 0
+         2008 0
+         2009 0
+         2010 0
+         2011 100
+         2012 18
+         2013 11
+      };
+   \end{axis}
+\end{tikzpicture}
+
+The ``\oldstylenums{99} percent'' had, relatively, seen no mention whatsoever.
+During Occupy, as its message largely used this phrase, its peak was reached.
+However, even following the evictions and Occupy falling out of public view, it has remained stable around \oldstylenums{10} percent of its peak.\footnote{Statistically speaking, this is an infinite percent increase, but that is not a terribly helpful way of describing the pattern. I need to figure out a way of conveying, in words, how significant this difference is.}
 
 \section{The World}
 
