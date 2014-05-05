@@ -7,8 +7,6 @@
 \usepackage[strict,notes,backend=biber]{biblatex-chicago}
 \usepackage[multiple,marginal,bottom]{footmisc}
 
-\setlrmargins{*}{4cm}{*}
-
 \addbibresource{citations.bib}
 \setromanfont[Mapping=tex-text]{Linux Libertine O}
 \setlength{\headheight}{15.2pt}
@@ -39,22 +37,23 @@
 \date{}
 \pagenumbering{gobble}
 \maketitle
+\newpage{}
+\thispagestyle{empty}
+\mbox{}
 \chapter{Contents}
+\thispagestyle{fancy}
+\fancyfoot[C]{–\,\thepage\,–}
+\pagenumbering{roman}
 \makeatletter
 \@starttoc{toc}
 \makeatother
 \makeatletter
 \addtocontents{toc}{\vspace{-20pt}}
 \chapter{List of Figures}
+\thispagestyle{fancy}
 \@starttoc{lof}
 \makeatother
-\newpage
-
-\pagenumbering{arabic}
-
-\fancyhead[L]{Political Interaction as Conversation}
-\fancyhead[R]{\nouppercase{\leftmark}}
-\fancyfoot[C]{–\,\thepage\,–}
+\newpage{}
 
 \addtocontents{toc}{\vspace{-20pt}}
 \chapter{Abstract}
@@ -76,20 +75,18 @@ Finally, but certainly not of small contribution, both Lucas Allen in particular
 This project, however, was not just the result of academic commitment.
 Both my family and close friends have helped support me through the whole process and I cannot thank them enough for their help.
 Furthermore, I completed this paper using a wide variety of software, \oldstylenums{100} percent of which consisted of free and open-source projects.
-The following open-source projects were used in the creation of this document:
+The following are some of the open-source projects used in the creation of this document: \XeLaTeX\,(for document processing), vim (a text editor), Linux Libertine (the font with which the resulting document is typeset) and git (a version control system).
+In the spirit of the free and open-source community at large, the source documents for this project are freely available on GitHub (a website front-end for git) at the following address: https://github.com/HalosGhost/honors\_thesis.
 
-\end{Spacing}\begin{itemize}
-   \item{\XeLaTeX\,and \emph{biblatex} for document processing and citation management}
-   \item{VIm (``Vi Improved''), a text editor}
-   \item{Linux Libertine and Inconsolata, free and open-source fonts}
-   \item{git, a version control system used for tracking edits}
-   \item{zathura, a \textsc{pdf} viewer}
-\end{itemize}
-\begin{Spacing}{2}
+\newpage{}
+\fancyhead[L]{Political Interaction as Conversation}
+\fancyhead[R]{\nouppercase{\leftmark}}
+\thispagestyle{empty}
+\mbox{}
 
-\addtocontents{toc}{\vspace{-20pt}}
 \chapter{Introduction}
 \thispagestyle{fancy}
+\pagenumbering{arabic}
 Political thinkers often create metaphors to characterize political interaction parsimoniously.
 The Realist tradition may have created the most basic metaphor for this purpose: the Billiards table.
 Each actor is cast as a solid Billiards ball whose inner-workings are of no concern to analysts.
@@ -139,6 +136,7 @@ Finally, I will attempt to view Occupy as a movement on a global scale.
 Each context, operating on a different scale, has different characteristics (and, unfortunately, widely different sets of available data).
 Though each case's analysis is confined by available data, they all include examples of statements which fit my model and, subsequently, support the underpinning framework.
 
+\addtocontents{toc}{\vspace{-20pt}}
 \chapter{Theoretical Background}
 \thispagestyle{fancy}
 \section{Intellectual Origins}
