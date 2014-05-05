@@ -9,3 +9,4 @@ A compiled (PDF) version of this document in its finalized form will be made fre
 This README will be updated to include a link once it is available.
 
 .. image:: http://i.creativecommons.org/l/by-sa/4.0/88x31.png
+   :target: http://creativecommons.org/licenses/by-sa/4.0/
